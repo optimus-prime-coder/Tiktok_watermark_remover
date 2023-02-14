@@ -175,7 +175,7 @@ button a{
 }
 
 .editBox{
-    height: 50%;
+    height: 70%;
     width: 50%;
     margin: auto;
     /* display: flex;
@@ -271,6 +271,14 @@ input{
  
  @media screen and (min-width:180px) and (max-width:499px) {
     .btn{
+        height: 20%;
+    }
+ }
+
+
+ @media screen and (min-width:180px) and (max-width:480px) {
+    input{
+        width: 90%;
         height: 20%;
     }
  }
