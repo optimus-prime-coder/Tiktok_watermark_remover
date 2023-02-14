@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(222, 222, 224);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(222, 222, 224);
+    
+}
+
+.parent{
+    width: 100%;
+    height: 30em;
+    margin-top: 5em;
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    
+}
+
+.logo-border{
+    height: 40%;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.logo-border img{
+    height: 60%;
+    
+}
+
+.text{
+    height: 100%;
+    width: 40%;
+    margin-left: 2em;
+    text-align: center;
+}
+
+h1,h2,p,button{
+    margin-top: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    
+    padding: 3%;
+    width: 30%;
+    background-color: black;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a{
+    color: rgb(173, 27, 107);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:735px) {
+    .logo{
+        height: 100%;
+        width: 40%;
+        
+    }
+    
+    .text{
+        height: 100%;
+        width: 60%;
+        margin-left: 2em;
+    }
+}
+
+@media screen and (min-width:180px) and (max-width:499px) {
+    .logo{
+        
+        height: 50%;
+        width: 100%;
+        
+    }
+    
+    .text{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    
+    }
+
+    .parent{
+        display: block;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:1145px) {
+    .logo-border{
+        height: 50%;
+        width: 100%;
+        margin-left: 2em;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:499px) {
+    .logo-border{
+        height: 50%;
+        width: 50%;
+        
+    }
+}
+
+@media screen and (min-width:304px) and (max-width:499px) {
+    .logo-border{
+        height: 50%;
+        width: 30%;
+        
+    }
+}
+
+@media screen and (min-width:180px) and (max-width:267px) {
+   button{
+    width: 50%;
+   }
+}
+
+
+
+/* EDIT PAGE STARTS HERE */
+.main2{
+    height: 100%;
+    width: 100%;
+}
+
+
+.parent2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main-edit{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(222, 222, 224);
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.text2{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(247, 247, 250);
+    border-left: 2px solid;
+    display: flex;
+    align-items: center;
+}
+
+.editBox{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    padding-top: 2em;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+.editBox img{
+   width: 10%;
+}
+
+
+
+input{
+    margin-top: 2em;
+    height: 10%;
+    width: 50%;
+    border: 1px;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(173, 27, 107);
+}
+
+
+.btn{
+    margin-top: 2em;
+    height: 10%;
+    width: auto;
+    border: 1px;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(173, 27, 107);
+    font-size: 1.3em;
+    padding: 2%;
+}
+
+.btn:hover{
+    background-color: rgb(173, 27, 107);
+    color: black;
+}
+
+
+.no-watermark{
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.no-watermark .video{
+    height: 70%;
+    width: 100%;
+}
+
+.no-watermark p{
+    text-align: center;
+    color: rgb(173, 27, 107);
+}
+
+@media screen and (min-width:180px) and (max-width:480px) {
+    .parent2{
+        display: block;
+    }
+
+    .main-edit{
+        height: 50%;
+        width: 100%;
+        
+        
+        
+    }
+    
+    .text2{
+        height: 50%;
+        width: 100%;
+        
+    }
+ }
+ 
+ @media screen and (min-width:180px) and (max-width:290px) {
+    .editBox{
+        height: 60%;
+        width: 80%;
+        
+        
+    }
+ }
+ 
+ @media screen and (min-width:180px) and (max-width:499px) {
+    .btn{
+        height: 20%;
+    }
+ }
